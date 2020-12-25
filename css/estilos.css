@@ -45,3 +45,31 @@ body
   color: #CE7D35;
   transition: all .3s;
 }
+
+/*Submenu */
+
+.submenu
+{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.submenu li a
+{
+  display: block;
+  padding: 15px;
+  color: white;
+  font-family: "Calibri";
+  text-decoration: none;
+}
+
+.menu li:hover .submenu
+{
+  visibility: visible;
+  opacity: 1;
+}
+
