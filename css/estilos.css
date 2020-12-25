@@ -39,3 +39,9 @@ body
   font-family: "Calibri";
   text-decoration: none;
 }
+
+.menu li a:hover
+{
+  color: #CE7D35;
+  transition: all .3s;
+}
